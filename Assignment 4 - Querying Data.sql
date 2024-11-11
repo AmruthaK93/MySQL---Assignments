@@ -89,8 +89,8 @@ create table COUNTRY(
             
             
             
-            # 8. Find all persons not from the countries 'India' and 'Australia'
-            select fname,country_name from PERSONS where country_name not in ('India','Australia');
+            # 8. Find all persons not from the countries 'India' and 'Australia' 
+            select fname,country_name from PERSONS where country_name not in ('India','Australia') or country_name is null;
             
             
             
