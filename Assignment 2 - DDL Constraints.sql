@@ -19,7 +19,7 @@ create table ORDERS(
     insert into SALES_ORDERS (Order_id,Customer_name,Product_category, Ordered_item,Contact_no ,Order_quantity)
 		values('101','John', 'Electronics', 'Laptop', '965632785298',2),
 			('102','Adam', 'Electronics', 'Television', '965655785298',3),
-            ('103','Ravi', 'Furniture', 'Table', '965632785346',4),
+                         ('103','Ravi', 'Furniture', 'Table', '965632785346',4),
 			('104','Aleena', 'Electronics', 'Refrigerator', '99565578529',2),
 			('105','Sara', 'Electronics', 'AC', '965655775298',1),
 			('106','Rayan', 'Apparel', 'Shoe', '96565578558',4),
