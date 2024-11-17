@@ -48,7 +48,7 @@ create table COUNTRY(
             (6,'John', 'Done', 6,3.9,108,'UK'),
             (7,'Aalia', 'Duke', 12,4.6,107,'Japan'),
             (8,'Diana', 'Charlie',4,4.1,103,'Canada'), 
-            (9,'David', 'Francis', 33,3.5,109,'US'),
+            (9,'David', 'Francis', 33,3.5,102,'US'),
             (10,'Michel', 'Jack',141,4.1,104,'China');
             
             select * from PERSONS;
