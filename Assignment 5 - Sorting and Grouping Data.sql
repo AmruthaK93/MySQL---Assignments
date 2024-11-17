@@ -50,7 +50,7 @@ create table COUNTRY(
             (6,'John', 'Done', 6,3.9,108,'UK'),
             (7,'Aalia', 'Duke', 12,4.6,107,'Japan'),
             (8,'Diana', 'Charlie',4,4.1,103,'Canada'), 
-            (9,'David', 'Francis', 33,3.5,109,'US'),
+            (9,'David', 'Francis', 33,3.5,102,'US'),
             (10,'Michel', 'Jack',141,4.1,104,'China');
             
             
@@ -80,7 +80,7 @@ create table COUNTRY(
        
        # 6. Insert 2 new rows to the Persons table making the Lname NULL. Then write another query to count Lname from Persons table.
 			  insert into PERSONS(person_id,fname,lname,population_in_Cr,rating,country_id,country_name) values
-						 (11,'Johan',null,33, 4.5,109,'US'),
+						 (11,'Johan',null,33, 4.5,109,'France'),
                          (12,'Alex',null,144, 4,101,'India');
                          
 		select * from PERSONS;	
