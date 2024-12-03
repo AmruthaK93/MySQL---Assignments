@@ -148,7 +148,7 @@ select * from CUSTOMER;
       
 # 4. Update phone numbers of customers who live in California for Customer_details view
 	 
-     update Customer_Details SET Phone_no = '222-2222' WHERE State = 'california';
+     update Customer_Details SET Phone_no = '111-1111' WHERE State = 'california';
 	 select * from Customer_Details ;
      
      
