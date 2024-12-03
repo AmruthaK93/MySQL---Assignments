@@ -51,7 +51,7 @@ use subquery;
 			(10,'Michel', 'Jack',141,2.1,104,'China'),
 			(11,'Johan','Mathew',33, 1.5,109,'France'),
 			(12,'Alex','Patrick',144, 4,101,'India'),
-            (13,'Carolin','Marshel',33, 3,102,'US');
+                        (13,'Carolin','Marshel',33, 3,102,'US');
 	select * from PERSONS;
     
     
@@ -148,7 +148,7 @@ select * from CUSTOMER;
       
 # 4. Update phone numbers of customers who live in California for Customer_details view
 	 
-     update customer SET Phone_no = '222-2222' WHERE State = 'california';
+     update Customer_Details SET Phone_no = '222-2222' WHERE State = 'california';
 	 select * from Customer_Details ;
      
      
